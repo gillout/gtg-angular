@@ -1,0 +1,45 @@
+@import "src/assets/variables";
+
+header {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: $background-nav;
+
+    ul {
+      list-style: none;
+
+      a, a:visited {
+        text-decoration: none;
+        color: $font-color;
+      }
+    }
+  }
+
+  .marquee {
+    display: flex;
+    align-items: center;
+    background-color: $background-header;
+    height: 200px;
+
+    .logo {
+      width: 25%;
+
+      img {
+        display: block;
+      }
+    }
+
+    h1 {
+      font-family: "ethnocentric", sans-serif;
+      font-size: 5em;
+      font-weight: bold;
+      letter-spacing: 50px;
+      text-align: center;
+      width: 75%;
+    }
+  }
+}
