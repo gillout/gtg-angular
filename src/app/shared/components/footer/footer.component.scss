@@ -1,0 +1,25 @@
+@import 'src/assets/variables';
+
+footer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background-color: $background-footer;
+
+  .contact {
+    width: 20%;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+
+  .copyright {
+    width: 60%;
+  }
+}
