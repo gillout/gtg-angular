@@ -3,3 +3,111 @@
   font-family: "ethnocentric";
   src: local("ethnocentric"), url("assets/fonts/ethnocentric/ethnocentric.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: 'acari-sans';
+  src: url('assets/fonts/acari-sans/AcariSans-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'acari-sans';
+  src: url('assets/fonts/acari-sans/AcariSans-Italic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'acari-sans';
+  src: url('assets/fonts/acari-sans/AcariSans-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'acari-sans';
+  src: url('assets/fonts/acari-sans/AcariSans-BoldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'spectral';
+  src: url('assets/fonts/spectral/spectral-regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'spectral';
+  src: url('assets/fonts/spectral/spectral-italic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'spectral';
+  src: url('assets/fonts/spectral/spectral-bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'spectral';
+  src: url('assets/fonts/spectral/spectral-bolditalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.alert {
+  border-radius: 8px;
+}
+
+.btn-violet {
+  color: #fff;
+  background-color: #9932CC;
+  border-color: #9932CC;
+}
+
+.btn-violet:hover {
+  color: #fff;
+  background-color: #8214FA;
+  border-color: #780AFF;
+}
+
+.btn-violet:focus {
+  box-shadow: 0 0 0 0.2rem rgba(170, 65, 200, 0.5);
+}
+
+main {
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: spectral, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: acari-sans, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
