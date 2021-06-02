@@ -26,10 +26,13 @@ header {
     height: 200px;
 
     .logo {
+      display: flex;
+      justify-content: center;
       width: 25%;
 
       img {
         display: block;
+        margin-left: 1rem;
       }
     }
 

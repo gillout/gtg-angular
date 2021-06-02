@@ -9,9 +9,10 @@ footer {
   height: 80px;
   width: 100%;
   background-color: $background-footer;
+  text-align: center;
 
   .contact {
-    width: 20%;
+    width: 30%;
 
     a {
       text-decoration: none;
@@ -20,6 +21,6 @@ footer {
   }
 
   .copyright {
-    width: 60%;
+    width: 70%;
   }
 }
