@@ -9,7 +9,7 @@ import {WelcomeRoutingModule} from "./welcome-routing.module";
     WelcomeComponent
   ],
   exports: [
-  WelcomeComponent
+    WelcomeComponent
   ],
   imports: [
     CommonModule,

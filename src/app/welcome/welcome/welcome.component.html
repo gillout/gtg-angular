@@ -1,16 +1,7 @@
 <section>
-  <h1><strong>Bienvenue</strong></h1>
+  <h1>Bienvenue</h1>
 
-  <div><img src="assets/images/algebre_de_boole.jpg" alt="Boole"></div>
-  <div><img src="assets/images/algorithmie.png" alt="Algorithmie"></div>
-  <div><img src="assets/images/uml.png" alt="UML"></div>
-  <div><img src="assets/images/modelisation_bdd.png" alt="Model_BdD"></div>
-  <div><img src="assets/images/html.png" alt="HTML"></div>
-  <div><img src="assets/images/css.png" alt="CSS"></div>
-  <div><img src="assets/images/javascript.png" alt="JavaScript"></div>
-  <div><img src="assets/images/php.png" alt="PHP"></div>
-  <div><img src="assets/images/java.png" alt="Java"></div>
-  <div><img src="assets/images/sql.png" alt="SQL"></div>
-  <div><img src="assets/images/mysql.png" alt="MySQL"></div>
-  <div><img src="assets/images/oracle.png" alt="Oracle"></div>
+  <div *ngFor="let img of imageRubriques">
+    <img src="{{ img.src }}" alt="{{ img.alt }}">
+  </div>
 </section>
