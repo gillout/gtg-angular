@@ -1,6 +1,7 @@
 <section>
   <h1>Bienvenue</h1>
 
-  <div *ngFor="let img of imageRubriques"><img src="assets/images/{{ img.name }}" alt="{{ img.alt }}"></div>
-
+  <div *ngFor="let img of imageRubriques">
+    <img src="{{ img.src }}" alt="{{ img.alt }}">
+  </div>
 </section>

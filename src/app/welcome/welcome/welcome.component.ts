@@ -8,18 +8,18 @@ import {Component, OnInit} from '@angular/core';
 export class WelcomeComponent implements OnInit {
 
   imageRubriques = [
-    { name: 'algebre_de_boole.jpg', alt: 'Boole' },
-    { name: 'algorithmie.png', alt: 'Algorithmie' },
-    { name: 'uml.png', alt: 'UML' },
-    { name: 'modelisation_bdd.png', alt: 'Model_BdD' },
-    { name: 'html.png', alt: 'HTML' },
-    { name: 'css.png', alt: 'CSS' },
-    { name: 'javascript.png', alt: 'JavaScript' },
-    { name: 'php.png', alt: 'PHP' },
-    { name: 'java.png', alt: 'Java' },
-    { name: 'sql.png', alt: 'SQL' },
-    { name: 'mysql.png', alt: 'MySQL' },
-    { name: 'oracle.png', alt: 'Oracle' }
+    { src: 'assets/images/algebre_de_boole.jpg', alt: 'Boole' },
+    { src: 'assets/images/algorithmie.png', alt: 'Algorithmie' },
+    { src: 'assets/images/uml.png', alt: 'UML' },
+    { src: 'assets/images/modelisation_bdd.png', alt: 'Model_BdD' },
+    { src: 'assets/images/html.png', alt: 'HTML' },
+    { src: 'assets/images/css.png', alt: 'CSS' },
+    { src: 'assets/images/javascript.png', alt: 'JavaScript' },
+    { src: 'assets/images/php.png', alt: 'PHP' },
+    { src: 'assets/images/java.png', alt: 'Java' },
+    { src: 'assets/images/sql.png', alt: 'SQL' },
+    { src: 'assets/images/mysql.png', alt: 'MySQL' },
+    { src: 'assets/images/oracle.png', alt: 'Oracle' }
   ];
 
   constructor() {
