@@ -1,0 +1,17 @@
+aside {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+
+  h1 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+}
+

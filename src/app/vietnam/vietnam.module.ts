@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { VietnamComponent } from './vietnam/vietnam.component';
 import {VietnamRoutingModule} from "./vietnam-routing.module";
+import {SharedModule} from "../shared/shared.module";
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import {VietnamRoutingModule} from "./vietnam-routing.module";
   ],
   imports: [
     CommonModule,
-    VietnamRoutingModule
+    VietnamRoutingModule,
+    SharedModule
   ]
 })
 export class VietnamModule { }
